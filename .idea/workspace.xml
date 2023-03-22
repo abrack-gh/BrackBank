@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5bae8e-9a59-4a86-a10d-bb9e4c40d862" name="Changes" comment="ClientMenu Business Logic started.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/brackbank/Controllers/Client/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Client/Dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Dashboard.css" afterDir="false" />
+    <list default="true" id="bd5bae8e-9a59-4a86-a10d-bb9e4c40d862" name="Changes" comment="All other changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brackbank/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brackbank/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brackbank/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brackbank/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brackbank/Models/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brackbank/Models/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brackbank/Views/ViewFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brackbank/Views/ViewFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Client/Client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Client/Client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Client/ClientMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Client/ClientMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Fxml/Client/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Fxml/Client/Dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678987704506</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dashboard Business Logic started.">
+      <created>1679342753570</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679342753570</updated>
+    </task>
+    <task id="LOCAL-00008" summary="All other changes.">
+      <created>1679342763559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679342763559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +177,8 @@
     <MESSAGE value="Java modified. Controller for Login created. App.java updated." />
     <MESSAGE value="ClientMenu CSS implemented." />
     <MESSAGE value="ClientMenu Business Logic started." />
-    <option name="LAST_COMMIT_MESSAGE" value="ClientMenu Business Logic started." />
+    <MESSAGE value="Dashboard Business Logic started." />
+    <MESSAGE value="All other changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="All other changes." />
   </component>
 </project>
