@@ -1,0 +1,31 @@
+package com.example.brackbank.Controllers.Client;
+
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class AccountsController implements Initializable {
+
+    public Label ch_acc_num;
+    public Label transaction_limit;
+    public Label ch_acc;
+    public Label ch_acc_bal;
+    public Label sv_acc_num;
+    public Label sv_wd_lim;
+    public Label sv_date_Created;
+    public Label sv_bal;
+    public TextField amount_to_sv;
+    public Button trans_to_sv_btn;
+    public TextField mv_to_svgs;
+    public Button trans_to_current_Acc_btn;
+
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+
+    }
+}

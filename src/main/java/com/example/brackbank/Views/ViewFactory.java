@@ -3,6 +3,7 @@ package com.example.brackbank.Views;
 import com.example.brackbank.Controllers.Client.ClientController;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
@@ -14,6 +15,7 @@ public class ViewFactory {
     private final StringProperty clientSelectedMenuItem;
     private AnchorPane dashboardView;
     private AnchorPane transactionsView;
+    private AnchorPane accountsView;
 
     public ViewFactory() {
         this.clientSelectedMenuItem = new SimpleStringProperty("");
@@ -43,6 +45,17 @@ public class ViewFactory {
             }
         }
         return transactionsView;
+    }
+
+    public AnchorPane getAccountsView() {
+        if(accountsView == null){
+            try{
+                accountsView = new FXMLLoader(getClass().getResource("/Fxml/Client/Accounts.fxml")).load();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return accountsView;
     }
 
     public void showLoginWindow(){
